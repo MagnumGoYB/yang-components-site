@@ -1,0 +1,116 @@
+### 演示
+
+<iframe
+  src="https://codesandbox.io/embed/falling-leaf-km0mep?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+  style={{
+    width: '100%',
+    height: '600px',
+    border: 0,
+    borderRadius: 4,
+    overflow: 'hidden',
+    marginTop: 20
+  }}
+  title="determined-lake-57ygh4"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+/>
+
+#### Avatar 属性
+
+{
+
+<table style={{ width: '100%', scrollbarGutter: 'auto' }}>
+  <colgroup>
+    <col style={{ width: '25%' }} />
+    <col style={{ width: '25%' }} />
+    <col style={{ width: '25%' }} />
+    <col style={{ width: '25%' }} />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>属性</th>
+      <th>说明</th>
+      <th>类型</th>
+      <th>默认值</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>src</td>
+      <td>头像的资源地址</td>
+      <td>string</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>alt</td>
+      <td>头像文本</td>
+      <td>string</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>size</td>
+      <td>尺寸</td>
+      <td>'sm' | 'md' | 'lg' | 'xl'</td>
+      <td>'md'</td>
+    </tr>
+    <tr>
+      <td>shape</td>
+      <td>形状</td>
+      <td>'circle' | 'square'</td>
+      <td>'circle'</td>
+    </tr>
+    <tr>
+      <td>onClick</td>
+      <td>点击事件</td>
+      <td>() ={'>'} void</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+}
+
+#### Avatar.Group 属性
+
+{
+
+<table style={{ width: '100%', scrollbarGutter: 'auto' }}>
+  <colgroup>
+    <col style={{ width: '25%' }} />
+    <col style={{ width: '25%' }} />
+    <col style={{ width: '25%' }} />
+    <col style={{ width: '25%' }} />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>属性</th>
+      <th>说明</th>
+      <th>类型</th>
+      <th>默认值</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>size</td>
+      <td>尺寸</td>
+      <td>'sm' | 'md' | 'lg' | 'xl'</td>
+      <td>'md'</td>
+    </tr>
+    <tr>
+      <td>max</td>
+      <td>最大数量</td>
+      <td>number</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>items</td>
+      <td>头像列表</td>
+      <td>
+        {'{'} src: string; alt: string {'}'}[]
+      </td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+}
