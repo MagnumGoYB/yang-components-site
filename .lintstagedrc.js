@@ -6,6 +6,6 @@ const buildEslintCommand = (filenames) =>
     .join(' --file ')}`
 
 module.exports = {
-  // '*': 'pnpm pretty',
+  '!(_meta.json)': 'pnpm pretty',
   '*.{js,jsx,ts,tsx}': [buildEslintCommand]
 }
