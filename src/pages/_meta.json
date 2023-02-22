@@ -3,7 +3,5 @@
     "type": "separator"
   },
   "components": "组件",
-  "index": {
-    "title": "入门指南"
-  }
+  "index": "入门指南"
 }
