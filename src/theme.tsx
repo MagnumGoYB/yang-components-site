@@ -8,7 +8,7 @@ const title = 'Yang Components'
 const config: ThemeConfig = {
   logo: <Logo />,
   project: {
-    link: 'https://github.com/MagnumGoYB/yang-components-site'
+    link: 'https://github.com/MagnumGoYB/yang-components'
   },
   feedback: {
     content: '有疑问？给我反馈 →'

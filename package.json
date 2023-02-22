@@ -4,7 +4,7 @@
   "description": "yang-components site",
   "license": "MIT",
   "author": "MagnumGoYB <sosbs@outlook.com>",
-  "homepage": "https://github.com/MagnumGoYB/yang-components-site",
+  "homepage": "https://yang-components-site.vercel.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/MagnumGoYB/yang-components-site"
